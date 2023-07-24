@@ -243,6 +243,74 @@ nav button {
    width: 61.03%;
 }
 
+.footer {
+background: #000;
+color: #A9A9A9;
+}
+.footer h3 {
+  margin-left: 25px;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.footer a {
+  color: #A9A9A9;
+
+}
+
+.footer__ul {
+  color: #A9A9A9;
+  list-style: none;
+  margin-top: 35px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.footer__ul li {
+  margin-top: 15px;
+}
+
+/* Estilos para el botón */
+.button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilos para el icono y la flecha */
+.button i {
+  margin-right: 5px; /* Espacio entre el icono y la palabra "Español" */
+  
+}
+
+.button span {
+  display: flex;
+  align-items: center;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin-left: 40px;
+}
+
+/* Estilos para la flecha hacia abajo */
+.button i.fa-chevron-down {
+  margin-left: 5px; /* Espacio entre la palabra "Español" y la flecha hacia abajo */
+}
+
+.footer__title {
+  color: #A9A9A9;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+
 @media(min-width: 600px) {
    .card2__container-subcard-img2 {
        min-width: 2.85rem;
