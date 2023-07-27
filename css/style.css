@@ -373,6 +373,7 @@ nav button:hover {
 .footer {
 background: #000;
 color: #A9A9A9;
+border-top: 0.5rem solid #222222;
 }
 .footer h3 {
   margin-left: 25px;
