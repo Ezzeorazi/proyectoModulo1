@@ -385,16 +385,26 @@ color: #A9A9A9;
 
 }
 
+.footer__column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer__ul {
   color: #A9A9A9;
   list-style: none;
   margin-top: 35px;
   margin-left: 20px;
   font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer__ul li {
-  margin-top: 15px;
+  width: calc(33.33% - 20px);
+  margin-top: 10px;
+  box-sizing: border-box;
 }
 
 /* Estilos para el botón */
@@ -481,6 +491,7 @@ color: #A9A9A9;
    .card2__container-subcard-text {
        width: 13rem;
    }
+
 }
 
 @media(min-width: 992px) {
@@ -610,7 +621,11 @@ color: #A9A9A9;
    }
 }
 
-
+@media (max-width: 768px) {
+  .footer__ul li {
+    width: 100%; /* Display in a single column on mobile */
+  }
+}
 
 
 
