@@ -108,6 +108,7 @@ nav button {
   font-weight: 900;
   max-width: 800px;
   margin-bottom: 30px;
+
 }
 .header-content h3 {
   font-weight: 400px;
@@ -228,63 +229,62 @@ nav button:hover {
     width: 600px;
   }
 }
-
 .card1,
 .card2,
 .card3,
 .card4 {
-    border-top: 0.5rem solid #222222;
-    background-color: black;
-    padding: 3.5rem 1.5rem;
+   border-top: 0.5rem solid #222222;
+   background-color: black;
+   padding: 3.5rem 1.5rem;
 }
 
 .card1__title,
 .card2__title,
 .card3__title,
 .card4__title {
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
+   color: white;
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bold;
 }
 
 .card1__paragraph,
 .card2__paragraph,
 .card3__paragraph,
 .card4__paragraph {
-    margin-top: 1rem;
-    color: white;
-    text-align: center;
-    font-size: 1.125rem;
-    line-height: 1.3rem;
+   margin-top: 1rem;
+   color: white;
+   text-align: center;
+   font-size: 1.125rem;
+   line-height: 1.3rem;
 }
 
 .card1__container-text {
-    margin-bottom: 0.17rem;
+   margin-bottom: 0.17rem;
 }
 .card2__container-text,
 .card3__container-text,
 .card4__container-text {
-    margin-bottom: 1rem;
+   margin-bottom: 1rem;
 }
 
 .card1__container-img-video {
-    position: relative;
+   position: relative;
 }
 
 .card1__container-video {
-    position: absolute;
-    z-index: 99;
-    top: 20.95%;
-    left: 13.2%;
-    width: 72.77%;
-    height: 55%;
+   position: absolute;
+   z-index: 99;
+   top: 20.95%;
+   left: 13.2%;
+   width: 72.77%;
+   height: 55%;
 }
 
 .card1__container-img,
 .card3__container-img {
-    position: relative;
-    z-index: 100;
+   position: relative;
+   z-index: 100;
 }
 
 .card1__img,
@@ -292,94 +292,94 @@ nav button:hover {
 .card2__img2,
 .card3__img,
 .card4__img {
-    width: 100%;
+   width: 100%;
 }
 
 .card1__video,
 .card3__video {
-    width: 100%;
+   width: 100%;
 }
 
 .card2__container-subcard-img2 {
-  width: 12.7%;
-  min-width: 12%;
-  max-width: 14%;
+   width: 12.5%;
+   min-width: 12%;
+   max-width: 14%;
 }
 
 .card3__container-divs {
-  position: relative;
+   position: relative;
 }
 
 .card2__container-img1{
-  width: 100%;
+   width: 100%;
 }
 
 .card2 {
-  position: relative;
+   position: relative;
 }
 
 .card2__container-subcard {
-  background-color: black;
-  box-shadow: 0 0 2em 0 rgb(0,0,0);
-  border: 2px solid rgba(128,128,128,0.7);
-  border-radius: 0.75rem;
-  padding: 0.3rem 0rem 0.5rem 0rem;
-  position: absolute;
-  top: 74.5%;
-  min-width: 64%;
-  max-width: 83%;
-  max-height: 15%;
+   background-color: black;
+   box-shadow: 0 0 2em 0 rgb(0,0,0);
+   border: 2px solid rgba(128,128,128,0.7);
+   border-radius: 0.75rem;
+   padding: 0.3rem 0rem 0.5rem 0rem;
+   position: absolute;
+   top: 74.5%;
+   min-width: 64%;
+   max-width: 81%;
+   height: 12%;
 }
 
 .card2__subtitle {
-  font-size: 0.875rem;
-  font-weight: normal;
-  color: white;
-  text-align: left;
+   font-size: 0.875rem;
+   font-weight: normal;
+   color: white;
+   text-align: left;
 }
 
 .card2__subparagraph {
-  margin: 0;
-  font-size: 0.75rem;
-  font-weight: normal;
-  color: #0071eb;
-  text-align: left;
+   margin: 0;
+   font-size: 0.75rem;
+   font-weight: normal;
+   color: #0071eb;
+   text-align: left;
 }
 
 .card2__continer-icon {
-  width: 13%;
+   width: 13%;
 }
 
 .card2__icon {
-  max-width: 100%;
+   color: #0071eb;
+   font-size: larger;
 }
 
 .card2__container-subcard-text {
-  width: 53%;
-  height: 99%;
-  line-height: 1rem;
+   width: 57%;
+   height: 99%;
+   line-height: 1rem;
 }
 
-
 .card3__container-video {
-  position: absolute;
-  z-index: 99;
-  top: 10.7%;
-  left: 18.9%;
-  height: 46%;
-  width: 61.03%;
+   position: absolute;
+   z-index: 99;
+   top: 10.7%;
+   left: 18.9%;
+   height: 46%;
+   width: 61.03%;
 }
 
 .footer {
-  background: #000;
-  color: #A9A9A9;
-  border-top: 0.5rem solid #222222;
-
+background: #000;
+color: #A9A9A9;
+border-top: 0.5rem solid #222222;
+margin-bottom: 0;
 }
 .footer h3 {
-  margin-left: 25px;
+  margin-left: 45px;
   font-size: 15px;
-  padding-top: 20px;
+  padding-top: 70px;
 }
 
 .footer a {
@@ -447,177 +447,181 @@ nav button:hover {
   color: #A9A9A9;
   margin-top: 25px;
   margin-left: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 
 @media(min-width: 600px) {
-  .card2__container-subcard-img2 {
-      min-width: 2.85rem;
-      max-width: 3rem;
-  }
+   .card2__container-subcard-img2 {
+       min-width: 2.85rem;
+       max-width: 3rem;
+   }
 
-  .card2__container-subcard {
-      width: 23rem;
-      min-width: 20rem;
-      max-width: 50rem;
-      height: 5.3rem;
-  }
+   .card2__container-subcard {
+       width: 25.3rem;
+       min-width: 20rem;
+       max-width: 50rem;
+       height: 5.3rem;
+   }
 
-  .card2__subtitle {
-      font-size: 1rem;
-  }
+   .card2__subtitle {
+       font-size: 1rem;
+   }
 
-  .card2__subparagraph {
-      font-size: 0.875rem;
-  }
+   .card2__subparagraph {
+       font-size: 0.875rem;
+   }
 
-  .card2__container-subcard-text {
-      width: 60%;
-  }
+   .card2__icon {
+       font-size: x-large;
+   }
+
+   .card2__container-subcard-text {
+       width: 12.3rem;
+   }
 }
 
 @media(min-width: 700px) {
-  .card2__container-subcard-img2 {
-      min-width: 1rem;
-      max-width: 3rem; 
-  }
+   .card2__container-subcard-img2 {
+       min-width: 1rem;
+       max-width: 3rem; 
+   }
 
-  .card2__container-subcard {
-      width: 25.7rem;
-  }
+   .card2__container-subcard {
+       width: 25.7rem;
+   }
 
-  .card2__container-subcard-text {
-      width: 14rem;
-  }
+   .card2__container-subcard-text {
+       width: 13rem;
+   }
+
 }
 
 @media(min-width: 992px) {
-  .card1,
-  .card2,
-  .card3,
-  .card4 {
-      padding: 4.3rem 2.2rem;
-  }
+   .card1,
+   .card2,
+   .card3,
+   .card4 {
+       padding: 4.3rem 2.2rem;
+   }
 
-  .card1__title,
-  .card2__title,
-  .card3__title,
-  .card4__title {
-      font-size: 3rem;
-      font-weight: 900;
-      text-align: left;
-      line-height: 4.3rem;
-  }
+   .card1__title,
+   .card2__title,
+   .card3__title,
+   .card4__title {
+       font-size: 3rem;
+       font-weight: 900;
+       text-align: left;
+       line-height: 4.3rem;
+   }
 
-  .card1__paragraph,
-  .card2__paragraph,
-  .card3__paragraph,
-  .card4__paragraph {
-      font-size: 1.5rem;
-      font-weight: 400;
-      text-align: left;
-      line-height: 1.8rem;
-  }
+   .card1__paragraph,
+   .card2__paragraph,
+   .card3__paragraph,
+   .card4__paragraph {
+       font-size: 1.5rem;
+       font-weight: 400;
+       text-align: left;
+       line-height: 1.8rem;
+   }
 
-  .card1__container-text,
-  .card1__container-img-video,
-  .card2__container-text,
-  .card2__container-divs,
-  .card3__container-text,
-  .card3__container-divs,
-  .card4__container-text,
-  .card4__container-img {
-      width: 50%;
-  }
+   .card1__container-text,
+   .card1__container-img-video,
+   .card2__container-text,
+   .card2__container-divs,
+   .card3__container-text,
+   .card3__container-divs,
+   .card4__container-text,
+   .card4__container-img {
+       width: 50%;
+   }
 
-  .card1__container-img-video,
-  .card2__container-text,
-  .card3__container-divs,
-  .card4__container-text {
-      margin-left: 1%;
-  }
+   .card1__container-img-video,
+   .card2__container-text,
+   .card3__container-divs,
+   .card4__container-text {
+       margin-left: 1%;
+   }
 
-  .card2__container-subcard-img2 {
-      width: 17%;
-      max-width: 50%;
-  }
+   .card2__container-subcard-img2 {
+       width: 17%;
+       max-width: 50%;
+   }
 
-  .card2__container-subcard {
-      top: 60.7%;
-      width: 31%;
-      min-width: 15%;
-      max-width: 55%;
-      min-height: 20.013%;
-      max-height: 70%;
-  }
+   .card2__container-subcard {
+       top: 60.7%;
+       width: 31%;
+       min-width: 20%;
+       max-width: 70%;
+       height: 20%;
+   }
 
-  .card2__container-subcard-text {
-      width: 43.7%;
-  }
-
-  .card2__continer-icon {
-      width: 3.3rem;
-  }
+   .card2__container-subcard-text {
+       width: 49%;
+   }
 }
 
+
 @media(min-width: 1200px) {
-  .card1,
-  .card2,
-  .card3,
-  .card4 {
-      padding: 4.3rem 9.3rem;
-  }
+   .card1,
+   .card2,
+   .card3,
+   .card4 {
+       padding: 4.3rem 9.2rem;
+   }
 
-  .card1__title,
-  .card2__title,
-  .card3__title,
-  .card4__title {
-      font-size: 3rem;
-      font-weight: 900;
-      text-align: left;
-      line-height: 4rem;
-  }
+   .card1__title,
+   .card2__title,
+   .card3__title,
+   .card4__title {
+       font-size: 2.7rem;
+       font-weight: 900;
+       text-align: left;
+       line-height: 3.7rem;
+   }
 
-  .card1__paragraph,
-  .card2__paragraph,
-  .card3__paragraph,
-  .card4__paragraph {
-      font-size: 1.53rem;
-      font-weight: 500;
-      text-align: left;
-      line-height: 1.7rem;
-  }
+   .card1__paragraph,
+   .card2__paragraph,
+   .card3__paragraph,
+   .card4__paragraph {
+       font-size: 1.35rem;
+       font-weight: 500;
+       text-align: left;
+       line-height: 1.6rem;
+   }
 
-  .card2__container-subcard {
-      width: 21.9%;
-      top: 61.7%;
-      height: 19%;
-      padding: 0.3rem 0.1rem 0.5rem 0.1rem;
-  }
+   .card2__container-subcard {
+       width: 21.7%;
+       top: 61.7%;
+       height: 19%;
+   }
 
-  .card2__container-subcard-img2 {
-      width: 19.7%;
-  }
+   .card2__container-subcard-img2 {
+       width: 19.5%;
+   }
 
-  .card2__container-subcard-text {
-      width: 45%;
-  }
+   .card2__container-subcard-text {
+       width: 47%;
+   }
 
-  .card1__container-img-video,
-  .card2__container-text,
-  .card3__container-divs,
-  .card4__container-text {
-      margin-left: 2%;
-  }
+   .card1__container-img-video,
+   .card2__container-text,
+   .card3__container-divs,
+   .card4__container-text {
+       margin-left: 2%;
+   }
 
-  .card2__subtitle {
-      font-size: 1rem;
-  }
+   .card2__container-img1 {
+       width: 103%;
+   }
 
-  .card2__subparagraph {
-      font-size: 0.9rem;
-  }
+   .card2__subtitle {
+       font-size: 0.9rem;
+   }
+
+   .card2__subparagraph {
+       font-size: 0.8rem;
+   }
 }
 
 @media (max-width: 768px) {
