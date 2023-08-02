@@ -311,7 +311,7 @@ nav button:hover {
 .card2 {
   position: relative;
 }
-/*arreglar  width: 83%; 4539574*/
+
 .card2__container-subcard {
   background-color: black;
   box-shadow: 0 0 2em 0 rgb(0, 0, 0);
@@ -529,14 +529,11 @@ nav button:hover {
   }
 
   .card2__container-subcard-img2 {
-    /* min-width: 1rem;
-      max-width: 3rem;  */
     width: 17%;
     max-width: 50%;
   }
 
   .card2__container-subcard {
-    /* width: 25.7rem; */
     top: 60.7%;
     width: 31%;
     min-width: 15%;
@@ -546,7 +543,6 @@ nav button:hover {
   }
 
   .card2__container-subcard-text {
-    /* width: 13rem; */
     width: 43.7%;
   }
 
