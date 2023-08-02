@@ -18,8 +18,8 @@
 }
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+ 
 }
 .logo {
   height: 55px;
@@ -39,53 +39,66 @@ nav button {
   margin-left: 25px;
   cursor: pointer;
 }
+.login-btn {
+  width: 100px;
+  height: fit-content;
+}
 .dropdown {
-  position: absolute;
+  position: relative;
   display: inline-block;
 }
 
 .dropbtn {
   background-color: transparent;
   color: #fff;
-  padding: 5px 10px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 4px;
   border: 1px solid dimgray;
   cursor: pointer;
   box-sizing: border-box;
-}
-.dropbtn:hover {
-  background: none;
+ margin-top: 3px;
+  height: fit-content;
+  
 }
 
+.dropbtn:hover {
+  background: none;
+  
+}
+/* Estilos del menú desplegable */
 .dropdown-content {
-  display: none;
-  position: absolute;
+  
   background-color: #f9f9f9;
-  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+
   border-radius: 4px;
+ 
 }
 
 .dropdown-content a {
-  color: #fff;
-  padding: 8px 12px;
+  color: #000;
+  padding: 0;
   text-decoration: none;
   display: block;
+  
+
 }
 
 .dropdown-content a:hover {
   background-color: #3494fc;
+  color: #fff;
 }
 
+/* Mostrar el menú al hacer hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  
 }
 
 .bi-globe {
-  margin-right: 10px;
-  width: 10px;
+  margin-right: 0px;
+  width: 12px;
+  margin-left: 0;
 }
 .bi-caret-down-fill {
   margin-left: 10px;
@@ -155,73 +168,6 @@ nav button:hover {
 .bi-chevron-right {
   font-weight: bolder;
   font-size: 21x;
-}
-@media (max-width: 600px) {
-  .logo {
-    width: 5.5625rem;
-    height: 2rem;
-  }
-  .container-nav {
-    justify-content: space-between;
-    width: fit-content;
-  }
-  nav button {
-    padding: 5px 8px;
-    width: 100px;
-  }
-  nav.dropbtn {
-    padding: 4px 8px;
-  }
-  .header-content {
-    position: unset;
-    transform: none;
-    margin-top: 20px;
-    align-content: center;
-  }
-  .header-content h1 {
-    font-size: 28px;
-  }
-  .header-content h3 {
-    font-size: 18px;
-  }
-  .email-signup button {
-    font-size: 16px;
-    padding: 10px 15px;
-    margin-top: 15px;
-  }
-  .email-signup {
-    justify-content: center;
-    display: block;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .email-signup input {
-    max-height: 42px;
-    width: 80%;
-  }
-  .dropbtn span {
-    display: none;
-  }
-  .dropbtn {
-    max-width: fit-content;
-  }
-  .container-btn {
-    display: flex;
-  }
-  .header {
-    height: auto;
-  }
-}
-@media (max-width: 1024px) {
-  .logo {
-    display: flex;
-    width: 120px;
-    height: 50px;
-  }
-  .header-content h1 {
-    font-size: 29px;
-    width: 600px;
-  }
 }
 .card1,
 .card2,
@@ -440,8 +386,110 @@ nav button:hover {
   margin-left: 50px;
   padding-bottom: 50px;
 }
+@media (min-width: 320px) {
+  .header {
+    height: 100vh;
+    padding: 20px 5%;
+  }
+  .logo {
+    margin-left: 0;
+    width: 100px;
+    height: 35px;
+  }
 
+  .container-btn {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: end;
+  }
+  .dropdown {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: none;
+  }
+  .dropbtn {
+    display: inline-flex;
+    height: max-content;
+  }
+  .dropbtn span {
+    display: none;
+  }
+  .login-btn {
+    width: 85px;
+    padding: 2px;
+   margin-top:5px ;
+  }
+  .bi-caret-down-fill {
+    margin-right: 2px;
+  }
+  .bi-globe {
+    margin-right: 1px;
+  }
+  .email-signup {
+    flex-direction: column;
+  }
+
+  .email-signup button {
+    width: fit-content;
+    margin: 10px 0;
+    height: fit-content;
+
+    margin-bottom: 20px;
+  }
+  .email-signup input {
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+  }
+  .header-content {
+    width: 85%;
+  }
+  .header-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .header-content h3 {
+    font-size: 18px;
+  }
+  .p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .bi-chevron-right {
+    font-size: 15px;
+  }
+}
 @media (min-width: 600px) {
+  .dropbtn span {
+    display: flex;
+    margin-left: 5px;
+  }
+  .login-btn {
+    padding: 5px;
+    width: 100px;
+  }
+  .email-signup {
+    flex-direction: row;
+    display: flex;
+  }
+  .email-signup input {
+    margin-right: 10px;
+    max-width: 600px;
+  }
+  .email-signup button {
+    padding: 0;
+    height: 50px;
+    width: 180px;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-content {
+    min-width: 150px;
+  }
   .card2__container-subcard-img2 {
     min-width: 2.85rem;
     max-width: 3rem;
@@ -613,5 +661,44 @@ nav button:hover {
 @media (max-width: 768px) {
   .footer__ul li {
     width: 100%; /* Display in a single column on mobile */
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    width: 130px;
+    height: 55px;
+  }
+  .login-btn {
+    padding: 8px;
+    width: 100px;
+  }
+
+  .email-signup button {
+    max-width: fit-content;
+    padding: 12px;
+  }
+
+  .email-signup input {
+    max-width: 60%;
+    margin-left: 80px;
+  }
+
+  .header-content {
+    width: 85%;
+  }
+  .header-content h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header-content h3 {
+    font-size: 24px;
+  }
+  .p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  .dropdown-content {
+    max-width: 100px;
   }
 }
