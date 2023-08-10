@@ -416,7 +416,6 @@ section .btn__faq:hover {
   font-weight: 400;
 }
 
-/*jjjjjj*/
 
 .footer {
   background: #000;
@@ -457,7 +456,7 @@ section .btn__faq:hover {
   box-sizing: border-box;
 }
 
-/* Estilos para el botón */
+
 .button {
   background-color: #000;
   color: #fff;
@@ -469,10 +468,10 @@ section .btn__faq:hover {
   font-size: 16px;
 }
 
-/* Estilos para el icono y la flecha */
+
 .button i {
   margin-right: 5px;
-  /* Espacio entre el icono y la palabra "Español" */
+  
 }
 
 .button span {
@@ -486,10 +485,10 @@ section .btn__faq:hover {
   margin-left: 40px;
 }
 
-/* Estilos para la flecha hacia abajo */
+
 .button i.fa-chevron-down {
   margin-left: 5px;
-  /* Espacio entre la palabra "Español" y la flecha hacia abajo */
+  
 }
 
 .footer__title {
@@ -510,6 +509,7 @@ section .btn__faq:hover {
     margin-left: 0;
     width: 100px;
     height: 35px;
+  
   }
 
   .container-btn {
@@ -530,7 +530,9 @@ section .btn__faq:hover {
 
   .dropbtn {
     display: inline-flex;
-    height: max-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: 0;
   }
 
   .dropbtn span {
@@ -549,6 +551,7 @@ section .btn__faq:hover {
 
   .bi-globe {
     margin-right: 1px;
+  
   }
 
   .email-signup {
@@ -649,7 +652,7 @@ section .btn__faq:hover {
   }
 
 
-  /*VEVEVEV*/
+  
   .btn__faq {
     font-size: 18px;
     width: 89.5%;
@@ -766,7 +769,7 @@ section .btn__faq:hover {
     width: 3.3rem;
   }
 
-  /*AuMENTAR*/
+
 
   .btn__faq {
     font-size: 24px;
@@ -878,7 +881,7 @@ section .btn__faq:hover {
 @media (max-width: 768px) {
   .footer__ul li {
     width: 100%;
-    /* Display in a single column on mobile */
+   
   }
 }
 
