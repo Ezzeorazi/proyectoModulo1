@@ -21,7 +21,6 @@
 nav {
   display: flex;
   justify-content: space-between;
-
 }
 
 .logo {
@@ -45,13 +44,15 @@ nav button {
 }
 
 .login-btn {
-  width: 100px;
+  width: 2rem;
   height: fit-content;
+  margin-left: 0.7rem;
 }
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .dropbtn {
@@ -64,7 +65,7 @@ nav button {
   box-sizing: border-box;
   margin-top: 3px;
   height: fit-content;
-
+  margin-left: 0.57rem;
 }
 
 .dropbtn:hover {
@@ -329,6 +330,8 @@ nav button:hover {
   width: 61.03%;
 }
 
+
+
 .container__faq {
   border-top: 0.5rem solid #222222;
   background-color: #000;
@@ -336,24 +339,18 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 4.5rem;
+  padding: 2rem 0.05rem 3.3rem;
 }
 
-.faq__title {
-  margin: 40px;
-  font-size: 3rem;
-  font-weight: 900;
-}
 
 .btn__faq {
   color: #fff;
   border: 0;
-  width: 80%;
-  height: 75px;
+  width: 85.3%;
   background-color: #303030;
-  margin: 3px;
+  margin: 0.3rem;
   font-size: 25px;
-  padding: 1.6rem;
+  padding: 1.3rem 1rem;
   text-align: start;
   cursor: pointer;
   transition: .1s;
@@ -364,80 +361,62 @@ section .btn__faq:hover {
 }
 
 .email__container {
-  width: 700px;
-  background: transparent;
-  align-items: center;
-  margin-top: 30px;
-  overflow: hidden;
   display: flex;
+  flex-direction: column;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .email__container input {
-  flex: auto;
   border: 0;
   outline: 0;
-  margin: auto 15px;
+  margin-bottom: 1rem;
   background: #151515;
   color: #fff;
   border: 1px solid dimgray;
-  height: 60px;
+  width: 70%;
+  height: 3rem;
   border-radius: 4px;
-  padding-left: 15px;
+  padding-left: 1rem;
 }
 
 .email__container button {
-  background: #db0001;
+  background: #E50914;
   border: 0;
   outline: 0;
   color: #fff;
-  font-size: 19px;
+  font-size: 18px;
   cursor: pointer;
-  padding: 15px 30px;
-  margin-left: 1px;
-  font-weight: bolder;
+  padding: 0.7rem 0rem;
+  font-weight: 500;
   border-radius: 4px;
+  width: 8rem;
+  margin-left: 0.67rem;
 }
 
-@media (max-width:800px) {
-  .email__container button {
-    font-size: 20px;
-    padding: 15px 20px;
-  }
-
-  .email__container {
-    width: 500px;
-  }
+.btn__faq {
+  font-size: 18px
 }
 
-@media (max-width:480px) {
-  .btn__faq {
-    font-size: 18px
-  }
-
-  .faq__title {
-    font-size: 1.8rem;
-    font-weight: 700;
-  }
-
-  .email__container {
-    flex-wrap: wrap;
-    justify-content: center;
-    display: block;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .email__container button {
-    font-size: 16px;
-    padding: 10px 15px;
-    margin-top: 15px;
-  }
-
-  .email__container input {
-    max-height: 42px;
-    width: 50%;
-  }
+.faq__title {
+  margin: 1rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
 }
+
+
+.faq {
+  margin-bottom: 0rem;
+  text-align: center;
+  padding: 2rem 3rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/*jjjjjj*/
 
 .footer {
   background: #000;
@@ -514,6 +493,7 @@ section .btn__faq:hover {
 }
 
 .footer__title {
+
   color: #a9a9a9;
   margin-top: 25px;
   margin-left: 50px;
@@ -667,6 +647,39 @@ section .btn__faq:hover {
   .card2__container-subcard-text {
     width: 60%;
   }
+
+
+  /*VEVEVEV*/
+  .btn__faq {
+    font-size: 18px;
+    width: 89.5%;
+  }
+
+  .faq__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .email__container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 3rem;
+
+  }
+
+  .email__container button {
+    font-size: 1.401rem;
+    font-weight: 300;
+    width: 11.377rem;
+  }
+
+  .email__container input {
+    width: 17.6rem;
+    height: 3.5rem;
+    margin-bottom: 0;
+  }
+
 }
 
 @media (min-width: 700px) {
@@ -752,6 +765,32 @@ section .btn__faq:hover {
   .card2__continer-icon {
     width: 3.3rem;
   }
+
+  /*AuMENTAR*/
+
+  .btn__faq {
+    font-size: 24px;
+    width: 93%;
+  }
+
+  .faq__title {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .faq {
+    font-size: 21px;
+  }
+
+  .email__container button {
+    width: 11.4rem;
+  }
+
+  .email__container input {
+    width: 24.705rem;
+    height: 3.5rem;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -811,6 +850,28 @@ section .btn__faq:hover {
 
   .card2__subparagraph {
     font-size: 0.9rem;
+  }
+
+  .footer {
+    padding: 0rem 7rem;
+  }
+
+  .footer__title h4 {
+    font-size: 1rem;
+  }
+
+  /*aumento*/
+  .container__faq {
+    padding: 4rem 0rem;
+  }
+  .btn__faq {
+    font-size: 24px;
+    width: 76.5%;
+  }
+
+  .faq__title {
+    font-size: 3.1rem;
+    font-weight: 900;
   }
 }
 
