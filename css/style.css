@@ -63,7 +63,7 @@ nav button {
   border: 1px solid dimgray;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 3px;
+  margin-top: 6px;
   height: fit-content;
   margin-left: 0.57rem;
 }
@@ -73,7 +73,7 @@ nav button {
 
 }
 
-/* Estilos del menú desplegable */
+
 .dropdown-content {
 
   background-color: #f9f9f9;
@@ -97,7 +97,7 @@ nav button {
   color: #fff;
 }
 
-/* Mostrar el menú al hacer hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 
