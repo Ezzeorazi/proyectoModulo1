@@ -347,7 +347,7 @@ nav button:hover {
   background-color: #303030;
   margin: 0.3rem;
   font-size: 25px;
-  padding: 0.9rem 1.2rem;
+  padding: 1.2rem 1.2rem;
   text-align: start;
   cursor: pointer;
   transition: .1s;
@@ -356,12 +356,14 @@ nav button:hover {
   align-items: center;
 }
 
-.btn__faq span {
+.btn__faq h3 {
+  font-size: 1.1rem;
+  font-weight: normal;
   width: 83%;
 }
 
 .btn__faq i {
-  font-size: 2.3rem;
+  font-size: 1.1rem;
   font-weight: bolder;
 }
 
@@ -655,8 +657,6 @@ section .btn__faq:hover {
     width: 60%;
   }
 
-
-
   .btn__faq {
     font-size: 18px;
     width: 89.5%;
@@ -774,8 +774,17 @@ section .btn__faq:hover {
   }
 
   .btn__faq {
+    padding: 0.7rem 1.3rem;
     font-size: 24px;
     width: 93%;
+  }
+
+  .btn__faq h3 {
+    font-size: 23px;
+  }
+
+  .btn__faq i {
+    font-size: 2.5rem;
   }
 
   .faq__title {
