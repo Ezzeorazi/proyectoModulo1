@@ -341,26 +341,28 @@ nav button:hover {
 }
 
 .btn__faq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   color: #fff;
   border: 0;
   width: 85.3%;
   background-color: #303030;
   margin: 0.3rem;
   font-size: 25px;
-  padding: 1.2rem 1.2rem;
+  padding: 1.4rem;
   text-align: start;
   cursor: pointer;
   transition: .1s;
 }
 
-.btn__faq h3 {
-  font-size: 1.1rem;
-  font-weight: normal;
-  width: 83%;
+.btn__faq span {
+  width: 85%;
 }
 
 .btn__faq i {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bolder;
 }
 
