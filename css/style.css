@@ -288,7 +288,7 @@ nav button:hover {
   position: absolute;
   top: 74.5%;
   min-width: 64%;
-  max-width: 83%;
+  max-width: 82.3%;
   max-height: 15%;
 }
 
@@ -330,8 +330,6 @@ nav button:hover {
   width: 61.03%;
 }
 
-
-
 .container__faq {
   border-top: 0.5rem solid #222222;
   background-color: #000;
@@ -342,7 +340,6 @@ nav button:hover {
   padding: 2rem 0.05rem 3.3rem;
 }
 
-
 .btn__faq {
   color: #fff;
   border: 0;
@@ -350,10 +347,22 @@ nav button:hover {
   background-color: #303030;
   margin: 0.3rem;
   font-size: 25px;
-  padding: 1.3rem 1rem;
+  padding: 0.9rem 1.2rem;
   text-align: start;
   cursor: pointer;
   transition: .1s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__faq span {
+  width: 83%;
+}
+
+.btn__faq i {
+  font-size: 2.3rem;
+  font-weight: bolder;
 }
 
 section .btn__faq:hover {
@@ -407,7 +416,6 @@ section .btn__faq:hover {
   font-weight: 700;
 }
 
-
 .faq {
   margin-bottom: 0rem;
   text-align: center;
@@ -415,7 +423,6 @@ section .btn__faq:hover {
   font-size: 1.125rem;
   font-weight: 400;
 }
-
 
 .footer {
   background: #000;
@@ -456,7 +463,6 @@ section .btn__faq:hover {
   box-sizing: border-box;
 }
 
-
 .button {
   background-color: #000;
   color: #fff;
@@ -468,10 +474,9 @@ section .btn__faq:hover {
   font-size: 16px;
 }
 
-
 .button i {
   margin-right: 5px;
-  
+
 }
 
 .button span {
@@ -485,10 +490,9 @@ section .btn__faq:hover {
   margin-left: 40px;
 }
 
-
 .button i.fa-chevron-down {
   margin-left: 5px;
-  
+
 }
 
 .footer__title {
@@ -509,7 +513,7 @@ section .btn__faq:hover {
     margin-left: 0;
     width: 100px;
     height: 35px;
-  
+
   }
 
   .container-btn {
@@ -551,7 +555,7 @@ section .btn__faq:hover {
 
   .bi-globe {
     margin-right: 1px;
-  
+
   }
 
   .email-signup {
@@ -652,7 +656,7 @@ section .btn__faq:hover {
   }
 
 
-  
+
   .btn__faq {
     font-size: 18px;
     width: 89.5%;
@@ -769,8 +773,6 @@ section .btn__faq:hover {
     width: 3.3rem;
   }
 
-
-
   .btn__faq {
     font-size: 24px;
     width: 93%;
@@ -863,13 +865,19 @@ section .btn__faq:hover {
     font-size: 1rem;
   }
 
-  /*aumento*/
   .container__faq {
     padding: 4rem 0rem;
   }
+
   .btn__faq {
     font-size: 24px;
     width: 76.5%;
+    padding: 0.77rem 1.5rem;
+  }
+
+  .btn__faq i {
+    font-size: 2.5rem;
+    font-weight: bolder;
   }
 
   .faq__title {
@@ -881,7 +889,7 @@ section .btn__faq:hover {
 @media (max-width: 768px) {
   .footer__ul li {
     width: 100%;
-   
+
   }
 }
 
